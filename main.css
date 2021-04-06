@@ -4,7 +4,7 @@ html{
   }
   
   body{
-  background: hotpink;
+  background: white;
   }
 
   .angel-container {
@@ -38,7 +38,7 @@ html{
   }
   
   #heart { 
-      position: relative; 
+      position: absolute; 
       width: 10rem; 
       height: 9rem;
       filter: blur(1rem);
