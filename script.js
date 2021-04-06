@@ -69,6 +69,11 @@ function showAngels() {
         angelName.innerText = angel.fields.Name;
         angelContainer.append(angelName);
 
+        var angelImages = document.createElement("img");
+        angelImages.classList.add("song-image");
+        angelImages.src = angel.fields.Images[0].url;
+        angelContainer.append(songImages);
+
 
     });
 }
