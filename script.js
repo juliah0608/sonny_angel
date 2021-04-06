@@ -70,9 +70,9 @@ function showAngels() {
         angelContainer.append(angelName);
 
         var angelImages = document.createElement("img");
-        angelImages.classList.add("song-image");
+        angelImages.classList.add("angel-Images");
         angelImages.src = angel.fields.Images[0].url;
-        angelContainer.append(songImages);
+        angelContainer.append(angelImages);
 
 
     });
