@@ -38,7 +38,7 @@ html{
   }
   
   #heart { 
-      position: absolute; 
+      position: relative; 
       width: 10rem; 
       height: 9rem;
       filter: blur(1rem);
