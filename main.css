@@ -115,7 +115,7 @@ html{
           background: deeppink;
       }
       #heart:before, #heart:after {
-          background: hotpink;
+          background: white;
       }
   }
   
