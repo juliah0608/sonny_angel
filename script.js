@@ -39,7 +39,7 @@ function gotAllAngels(err) {
   // just loop through the books and console.log them
 function consoleLogAngels() {
     console.log("consoleLogAngels()");
-    angels.forEach((angel) => {
+    Angels.forEach((angel) => {
       console.log("Angel:", angel);
     });
   }
@@ -47,7 +47,7 @@ function consoleLogAngels() {
   // look through our airtable data, create elements
 function showAngels() {
     console.log("showAngels()");
-    angels.forEach((angel) => {
+    Angels.forEach((angel) => {
         
         var angelName = document.createElement("h1");
         angelName.innerText = angel.fields.Name;
