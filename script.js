@@ -75,5 +75,10 @@ function showAngels() {
         angelContainer.append(angelImages);
 
 
+        angelContainer.addEventListener("click," function(){
+          angelImage.classList.toggle("active");
+        }
+
+
     });
 }
