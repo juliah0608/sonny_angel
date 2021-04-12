@@ -25,7 +25,7 @@ function gotAllAngels(err) {
   
     // report an error, you'd want to do something better than this in production
     if (err) {
-      console.log("error loading Angels);
+      console.log("error loading data);
       console.error(err);
       return;
     }
@@ -47,7 +47,7 @@ function consoleLogAngels() {
   // look through our airtable data, create elements
 function showAngels() {
     console.log("showAngels()");
-    angels.forEach(angel => {
+    angels.forEach((angel) => {
         
         var angelName = document.createElement("h1");
         angelName.innerText = angel.fields.Name;
