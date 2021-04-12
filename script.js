@@ -25,7 +25,7 @@ function gotAllAngels(err) {
   
     // report an error, you'd want to do something better than this in production
     if (err) {
-      console.log("error loading data");
+      console.log("error loading Angels);
       console.error(err);
       return;
     }
