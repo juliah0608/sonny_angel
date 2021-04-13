@@ -69,6 +69,14 @@ function showAngels(){
     angelImages.src = angel.fields.Images[0].url;
     angelContainer.append(angelImages);
 
+    //add event listener
+    //when user clicks on song container
+    //the image and description will appear or dissapear
+
+    angelContainer.addEventListener("click", function(){
+      angelImages.classList.toggle("active");
+    })
+
   });
 
 }
