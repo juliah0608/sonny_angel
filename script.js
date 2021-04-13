@@ -74,6 +74,7 @@ function showAngels(){
     //the image and description will appear or dissapear
 
     angelContainer.addEventListener("click", function(){
+      angelName.classList.toggle("active");
       angelImages.classList.toggle("active");
     })
 
