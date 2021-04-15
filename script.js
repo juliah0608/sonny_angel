@@ -76,7 +76,7 @@ function showAngels(){
     angelContainer.addEventListener("click", function(){
       angelName.classList.toggle("active");
       angelImages.classList.toggle("active");
-    });
+    })
 
   });
 
