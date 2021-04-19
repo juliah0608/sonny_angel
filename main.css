@@ -192,18 +192,32 @@
  
   
   
-  @media(max-width: 500px){
+ @media(max-width: 375px){
       body{
           background: white;
       }
       #heart:before, #heart:after {
           background: pink;
       }
-      .filter{
-        font-size:10px;
+      .container {
+      display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows:400px;
+    grid-gap: 5rem;
+    object-fit: cover;
+      }
+      .filter {
+      display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows:20px;
+    grid-gap: 5rem;
+    object-fit: cover;
+
+      
       }
   }
-
 
 /* Nintendoid font from https://www.splintered.co.uk/experiments/132/ */
 
